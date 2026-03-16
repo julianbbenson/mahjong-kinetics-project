@@ -123,9 +123,9 @@ Before we look at the data, we need to talk about the architects of this mathema
 
 If you're going to model enzyme dynamics, you use the Michaelis-Menten equation. But who actually were they?
 
-Leonor Michaelis was a German biochemist in the early 1900s. Brilliant guy. But the real star of the show, the one who doesn't get enough real estate on your Biology textbooks, was **Maud Menten**. Menten was an absolute force of nature. At a time when women were largely barred from scientific research, she crossed the ocean to work with Michaelis in Berlin. She was a polymath—she mastered half a dozen languages, painted exhibition-worthy art, played the clarinet, and co-authored the most famous equation in biological kinetics in 1913. 
+Leonor Michaelis was a German biochemist in the early 1900s. He was a titan of the lab who essentially built the foundations of physical biochemistry—from inventing the glass electrode for pH measurement to discovering the iron-storage protein ferritin and proving the existence of free radicals (semiquinones) in metabolic reactions. Brilliant guy. But the real star of the show, the one who doesn't get enough real estate on your Biology textbooks, was **Maud Menten**. Menten was an absolute force of nature. At a time when women were largely barred from scientific research, she crossed the ocean to work with Michaelis in Berlin. She was a polymath—she mastered half a dozen languages, painted exhibition-worthy art, played the clarinet, and co-authored the most famous equation in biological kinetics in 1913. 
 
-![Maud Menten](https://scientiablog.com/wp-content/uploads/2018/12/fascinante-kxhg-u601670279925szg-624x385la-verdad.jpg)  
+![Michaelis and Menten](https://scientiablog.com/wp-content/uploads/2018/12/fascinante-kxhg-u601670279925szg-624x385la-verdad.jpg)  
 
 They realized that chemical reactions don't just happen at a flat rate. They are *substrate-limited*. If you have a ton of enzymes but only a few molecules of substrate (the stuff the enzyme acts on), the reaction crawls. If you flood the system with substrate, the enzymes work at maximum speed until they hit a physical bottleneck—their $V_{max}$. 
 
@@ -268,7 +268,7 @@ But if this project has proven anything, it’s that a single, curious question 
 
 If you’re new to Mahjong, don't let the "Rule of 64" scare you off. The math describes the boundaries of the cage, but the fun is in how you navigate it. Go play a game. Get on [Tenhou](https://tenhou.net/4/), install the [English UI extension](https://chromewebstore.google.com/detail/tenhou-english-ui/jdackjfahmdepglkioclfdhbhdplnana?pli=1), feel the "conformational breathing" of your own hand, and see if you can beat the kinetics. 
 
-![Gameplay](https://i.imgur.com/HnnCpYb.jpeg) 
+![Gameplay](https://i.imgur.com/HnnCpYb.jpeg)  
 *Sometimes, the best way to understand a system is to simply become a part of the reaction.*
 
 ![Manga Panel](https://i.snap.as/DsSaiEOz.jpg)  
@@ -280,15 +280,15 @@ If you’re new to Mahjong, don't let the "Rule of 64" scare you off. The math d
 
 If treating a Mahjong hand as an enzyme works this perfectly, it blows the doors wide open for other applications of computational biology in imperfect information games. What else could we do?
 
-**1. Treating Discard Pools as Biological Pathways (Reactome Analysis)**
+**1. Treating Discard Pools as Biological Pathways (Reactome Analysis)**  
 In bioinformatics, we use pathway analysis to map how biological networks interact. What if we map game trees not as static chess-like nodes, but as biological pathways? A player's discard history is basically a metabolic pathway. If they discard a 1-Pin, then a 2-Pin, then a 9-Sou, that sequence is a "metabolite cascade." We could use visual pathway analysis to predict exactly what "downstream product" (winning hand) they are trying to synthesize.
 
 
 
-**2. Allosteric Inhibition (The Math of Folding)**
+**2. Allosteric Inhibition (The Math of Folding)**  
 When an opponent calls Riichi, how do you defend? In biochemistry, an inhibitor binds to an enzyme to stop it from working. Your defensive discards are basically **competitive inhibitors**. Could we calculate the $K_i$ (inhibitor constant) of certain safety tiles? Can we mathematically prove which discards lower the opponent's reaction velocity the fastest?
 
-**3. The Darwinian Meta: Evolutionary Game Strategy**
+**3. The Darwinian Meta: Evolutionary Game Strategy**  
 We could treat the various "Meta-strategies" of Mahjong (like the shift from *Menzen* play to *Naki* speed play) as a literal population of organisms competing for resources. We could apply the **Price Equation** from evolutionary biology to track how "strategic traits" are passed down or discarded based on their fitness (payout). Could a mutation in a single player’s discarding habit eventually lead to a "Speciation Event" where an entire server tier evolves a completely different kinetic profile? We are talking about the emergence of a self-correcting, artificial ecosystem of logic.
 
 The wall is not random chance but a living, breathing organism—and we're just beginning to sequence its genome!

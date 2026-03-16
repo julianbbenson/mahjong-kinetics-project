@@ -4,7 +4,7 @@ import csv
 
 # --- CONFIGURATION ---
 # UPDATE THIS PATH TO YOUR DATA FOLDER
-DATA_FOLDER = '/Users/julianbenson/Desktop/MAHJONG_KINETICS/riichi_data'
+DATA_FOLDER = './riichi_data'
 OUTPUT_FILE = 'kinetics_data.csv'
 
 
